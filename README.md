@@ -37,18 +37,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-<p>These samples are reconstructions from a VQ-VAE that compresses the audio input over 64x times into discrete latent codes (see figure below). Both the VQ-VAE and latent space are trained end-to-end without relying on phonemes or information other than the waveform itself. Although the reconstructed waveforms are very different in shape from the originals, they sound very similar.</p>
-
-<blockquote>
-  <p><img src="/homepage/images/reconstruct.jpg" width="85%" height="85%" style="margin-bottom: 40px" />
-Originals and reconstructions</p>
-  <audio src="/homepage/audio/pt1_orig1.wav" controls="controls"></audio>
-  <audio src="/homepage/audio/pt1_recon1.wav" controls="controls"></audio>
-  <p> </p>
-  <audio src="/homepage/audio/pt1_orig2.wav" controls="controls"></audio>
-  <audio src="/homepage/audio/pt1_recon2.wav" controls="controls"></audio>
-  <p> </p>
-  <audio src="/homepage/audio/pt1_orig3.wav" controls="controls"></audio>
-  <audio src="/homepage/audio/pt1_recon3.wav" controls="controls"></audio>
-</blockquote>
-
